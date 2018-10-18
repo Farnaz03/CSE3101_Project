@@ -1,0 +1,84 @@
+
+/*Add new contact styles */
+body{
+    background-color: #33658A;
+}
+.column {
+    float: left;
+    width: 43%;
+}
+
+.formFormat {
+    background-color: #F6AE2D;
+    border-radius: 30px; 
+    padding: 15px;
+}
+
+input[type=date] {
+	width:80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text], select{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=textarea]{
+    width: 80%;
+    height:110px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #2F4858;
+    color: #25E6E8;
+    font-family: times new romans;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid #25E6E8;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left:50%;
+    font-size: 1.3em;
+    font-style: bold;
+}
+
+input[type=submit]:hover {
+    color: #F6AE2D;
+    color: white;
+}
+
+
+label {
+ 	font-size: 1.2em;
+ 	color: #2F4858;
+ }
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/*Log in page styles */
+
